@@ -1,0 +1,42 @@
+body {
+  padding-top: 100px;
+  font: 16px/1.2 BlinkMacSystemFont, -apple-System, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+/*.mode-content{
+  width: 75%;
+}*/
+
+
+label{
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
+button{
+  margin-top:20px;
+}
+.modeList{    
+  list-style-type: none;
+  -moz-column-count: 5;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 5;
+  -webkit-column-gap: 20px;
+  column-count: 5;
+  column-gap: 20px;
+}
+
+.freqChart, .freqChart-close{
+  list-style-type: none;
+  
+  /*-moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;*/
+}
